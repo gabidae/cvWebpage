@@ -1,0 +1,108 @@
+*{
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background-color: #E5E5E5;
+  }
+  
+  .page {
+    min-width: 300px;
+    max-width:1200px;
+    size: A4;
+    border-top:10px solid #005889;
+    background-color: #fff;
+  }
+  
+  .header {
+    padding: 40px;
+    flex: 1;
+  }
+  
+  .subtitle {
+    padding: 0 0 0 30px;
+  }
+  
+  .body {
+    padding: 40px;
+    flex: 1;
+  }
+  
+  span {
+    color: #005889;
+  }
+  
+   h2 {
+    color: #005889;
+   }
+  
+  
+  .objective{
+    margin-bottom: 5px;
+  }
+  
+  .objective p {
+    margin: 10px;
+    padding: 0 0 0 30px;
+  }
+  
+  .experience {
+    margin-bottom: 5px;
+  }
+  
+  .experience p {
+    margin: 10px;
+    padding: 0 0 0 30px;
+  }
+  
+  .education {
+   margin-bottom: 5px;
+  }
+  
+  .education p {
+    margin: 10px;
+    padding: 0 0 0 30px;
+  }
+  .skills-wrapper {
+    margin-top: 10px;
+  }
+  .skills-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  
+  .skills{
+    flex: 1;
+    flex-wrap: wrap;
+  }
+  
+  .skills p {
+    margin: 2px;
+    padding-left: 10px;
+  }
+  
+  .leadership {
+    margin: 5px;
+  }
+  
+  .leadership p {
+    margin: 10px;
+    padding: 0 0 0 30px;
+  }
+  
+  .achievements {
+    margin-bottom: 5px;
+  }
+  
+  .achievements p {
+    margin: 10px;
+    padding: 0 0 0 30px;
+  }
